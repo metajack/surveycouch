@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+}
+
+a {
+    color: #55f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #55f;
+}
+
+a:active {
+    color: #f55;
+}
+
+#title {
+    margin: 0;
+    padding: 25px;
+    background-color: #444;
+    color: #fff;
+    font-size: 24px;
+}
+
+#body {
+    padding: 0 50px 0 50px;
+}
+
+#questions > li {
+    padding-bottom: 20px;
+}
+
+#questions ul {
+    list-style-type: none;
+}
